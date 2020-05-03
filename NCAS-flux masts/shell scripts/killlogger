@@ -1,0 +1,3 @@
+read pid < /home/logger.pid
+echo "stopping $pid"
+kill -9 $pid
